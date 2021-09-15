@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_16"
+    tools:context=".navDrawerFragments.LocationSearchFragment">
+
+    <EditText
+        android:id="@+id/etSearchLocation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:drawablePadding="@dimen/dp_10"
+        android:fontFamily="@font/productsansregular"
+        android:hint="@string/search_drop_location"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/btnSearchLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40"
+        android:background="@drawable/requst_bg"
+        android:fontFamily="@font/productsansregular"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/let_s_go" />
+
+
+</LinearLayout>

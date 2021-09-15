@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929701544990",
+    "project_id": "rapdio-3f82c",
+    "storage_bucket": "rapdio-3f82c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929701544990:android:09b0ddc0315303ed2c9a0f",
+        "android_client_info": {
+          "package_name": "com.example.rapdio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929701544990-4sksm8nkndunlahctee99fqrt9tjsur9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCO8SOCmXP8DSGqLYgiQ_sHRw64ypwbdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929701544990-4sksm8nkndunlahctee99fqrt9tjsur9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

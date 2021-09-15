@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.rapdio.navDrawerFragments.HomeFragment"
+        android:label="@string/a"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_mapFragment_to_covid19Fragment"
+            app:destination="@id/covid19Fragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_myRidesFragment"
+            app:destination="@id/myRidesFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_inviteFriendsFragment"
+            app:destination="@id/inviteFriendsFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_powerPassFragment"
+            app:destination="@id/powerPassFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_insuranceFragment"
+            app:destination="@id/insuranceFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_supportFragment"
+            app:destination="@id/supportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.rapdio.navDrawerFragments.PaymentFragment"
+        android:label="@string/small_Payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/myRidesFragment"
+        android:name="com.example.rapdio.navDrawerFragments.MyRidesFragment"
+        android:label="@string/my_rides"
+        tools:layout="@layout/fragment_my_rides" />
+    <fragment
+        android:id="@+id/inviteFriendsFragment"
+        android:name="com.example.rapdio.navDrawerFragments.InviteFriendsFragment"
+        android:label="@string/invite_friends"
+        tools:layout="@layout/fragment_invite_friends" />
+    <fragment
+        android:id="@+id/powerPassFragment"
+        android:name="com.example.rapdio.navDrawerFragments.PowerPassFragment"
+        android:label="@string/power_pass"
+        tools:layout="@layout/fragment_power_pass" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.rapdio.navDrawerFragments.NotificationsFragment"
+        android:label="@string/notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/insuranceFragment"
+        android:name="com.example.rapdio.navDrawerFragments.InsuranceFragment"
+        android:label="@string/insurance"
+        tools:layout="@layout/fragment_insurance" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.rapdio.navDrawerFragments.SettingsFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.example.rapdio.navDrawerFragments.SupportFragment"
+        android:label="@string/support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/covid19Fragment"
+        android:name="com.example.rapdio.navDrawerFragments.Covid19Fragment"
+        android:label="@string/COVID_19"
+        tools:layout="@layout/fragment_covid19" />
+</navigation>

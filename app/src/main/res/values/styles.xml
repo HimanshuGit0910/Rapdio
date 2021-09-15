@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Notification" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">@color/yellow</item>
+        <item name="android:windowNoTitle">@color/Black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Style.NavBarView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/productsansregular</item>
+    </style>
+
+</resources>
