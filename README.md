@@ -1,25 +1,6 @@
 This is an android demo project based on modern Android application tech-stacks and MVVM architecture. The app simulates the booking of a bike for a ride. The user can choose betwwen 6 different languages. The app uses firebases for user authentication(Google & mobile number). The user can also invite people ion the contact list to download the app. The app uses firebase for the backend.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+App Screenshots
 ![WhatsApp Image 2021-09-15 at 1 39 30 PM](https://user-images.githubusercontent.com/68690160/133395660-3a64b19b-9540-44c7-8e87-f8e5aaa4bc1c.jpeg)
 ![WhatsApp Image 2021-09-15 at 1 35 36 PM (2)](https://user-images.githubusercontent.com/68690160/133395740-b3c2c5b6-259f-40e3-bf01-ec97081c2cec.jpeg)
 ![WhatsApp Image 2021-09-15 at 1 35 36 PM](https://user-images.githubusercontent.com/68690160/133395775-f66d79e9-3b06-48d8-9226-a04a12697303.jpeg)
@@ -30,7 +11,6 @@ This is an android demo project based on modern Android application tech-stacks 
 ![WhatsApp Image 2021-09-15 at 1 38 33 PM](https://user-images.githubusercontent.com/68690160/133395952-4a217969-faf9-4737-a306-564257bdb334.jpeg)
 ![WhatsApp Image 2021-09-15 at 1 38 33 PM (1)](https://user-images.githubusercontent.com/68690160/133395959-6b2f28dd-0a02-484d-b9e8-3b11c0f0e88a.jpeg)
 ![125679698-ef25612d-e332-4a02-a783-534c841ae9dc](https://user-images.githubusercontent.com/68690160/133394712-862e83c5-6e20-496c-860f-5fb68d47ab57.png)
-
 ![silde](https://user-images.githubusercontent.com/68690160/133394723-3fc59098-bb51-4cd6-af81-1bfcfaa83640.jpeg)
 ![125679692-47337230-ebf2-435f-8530-69a6aedb28b3](https://user-images.githubusercontent.com/68690160/133394725-bcf49b5d-983d-4443-8b78-486633105360.png)
 ![125679694-1a21a276-5ea3-4d9a-bda4-6deb19e739cd](https://user-images.githubusercontent.com/68690160/133394726-d64eac51-6991-4a8a-9dcb-d495ea6042c2.png)
